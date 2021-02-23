@@ -1,0 +1,21 @@
+/* Changement de logo de la page de connexion */
+body.login div#login h1 a {
+    background-image: url(../media/logo\ -\ Noir.png) !important;
+    background-image: none, url(../media/logo\ -\ Noir.png) !important;
+
+}
+body.login div#login form#loginform {
+    background: #303841;
+    border-radius: 5px;
+}
+body.login div#login form#loginform p label {
+    color: white;
+}
+.user-pass-wrap{
+    color: white;
+}
+
+#wp-submit {
+    background:#FF5722;
+    border: none;
+}
